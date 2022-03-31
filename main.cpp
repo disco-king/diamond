@@ -21,6 +21,8 @@ int main()
 	std::cout << std::endl;
 
 	nemo.attack("someone");
+
+	std::cout << std::endl;
 }
 	std::cout << std::endl;
 {
