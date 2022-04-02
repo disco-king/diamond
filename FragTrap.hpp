@@ -8,15 +8,14 @@ class FragTrap : virtual public ClapTrap
 {
 
 protected:
-	unsigned int energyPoints;
+	unsigned int hitPoints;
+	unsigned int attackDamage;
 
 public:
 
 	FragTrap();
 	FragTrap(std::string const & name);
 	~FragTrap();
-
-	void displayStatus();
 
 	void highFivesGuys();
 

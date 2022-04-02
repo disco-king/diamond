@@ -30,9 +30,3 @@ void FragTrap::highFivesGuys(){
 		std::cout << "FragTrap " << name
 		<< " basically just gives everyone a high five." << std::endl;
 }
-
-void FragTrap::displayStatus(){
-
-	ClapTrap::energyPoints = energyPoints;
-	ClapTrap::displayStatus();
-}

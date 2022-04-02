@@ -51,10 +51,3 @@ void ScavTrap::guardGate(){
 
 	status = status ? 0 : 1;
 }
-
-void ScavTrap::displayStatus(){
-
-	ClapTrap::hitPoints = hitPoints;
-	ClapTrap::attackDamage = attackDamage;
-	ClapTrap::displayStatus();
-}
